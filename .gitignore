@@ -1,0 +1,13 @@
+# ARC Environment Cache
+environment_files/
+
+# API Keys and Secrets (CRITICAL - never push this!)
+.env
+
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Transitions Data (can be huge, keep it local)
+transitions.json
